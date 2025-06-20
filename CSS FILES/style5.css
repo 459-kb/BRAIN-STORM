@@ -1,0 +1,83 @@
+body{ 
+  background-image:url("Images2/Background1.jpg");
+		   background-size:cover;
+		   background-repeat:no-repeat;
+		   background-attachment:scroll;
+		   background-position:center;
+	  }
+	  
+/*Sizes Of IMAGES and ALIGNMENT OF IMAGES*/
+.img-container2 img{
+	            position: top left;
+                width: 150px;
+                height: 150px;				
+				 }
+				 
+.img-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-container img{
+     width: 250px;
+     height: 250px;
+	  flex-wrap: wrap;
+   }
+   p { text-align: center;
+	   font-family: Algerian;
+	   color:  red;
+   }
+ 
+   /*Navigation Bar*/
+  .navbar ul{
+	         list-style-type: none;
+			 background-color: yellow;
+			 padding:  0px; 
+			 margin: 0px;
+			 overflow: hidden;
+			 display: flex;
+			 gap: 10px;
+  }
+  .navbar a:hover{
+	         background-color: red;
+	         
+            }
+	.navbar a{
+		      color: orange;
+			  text-decoration: none;
+			  font-family: Algerian;
+			  padding: 16px;
+			  display: block;			  
+	}
+
+.navbar li{
+	       position: relative;
+		   float: left;
+	      }
+
+/*TEXT STYLE*/
+h1 {
+    font-family: Algerian;
+     color: red;
+   text-align: center;	 
+   }
+   
+ h2 {
+    font-family: Algerian;
+     color:gold;
+   text-align: center;	 
+   }
+ 
+p { text-align: center;
+	   font-family: Algerian;
+	   color:  red;
+	   text-decoration: none;
+   }
+   
+ footer {
+      background-color: #ffcb05;
+      text-align: center;
+      padding: 15px;
+    }

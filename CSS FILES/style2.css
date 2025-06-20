@@ -1,0 +1,70 @@
+body{
+	       background-image:url("Images2/Background1.jpg");
+		   background-size:cover;
+		   background-repeat:no-repeat;
+		   background-attachment:fixed;
+		   background-position:center;
+	  }
+	  
+	   /**Sizes of DONUTS IMAGES and ALIGNMENT OF DONUTS IMAGES*/
+.img-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-container img{
+     width: 250px;
+     height: 250px;
+	  flex-wrap: wrap;
+   }
+   p { text-align: none;
+	   font-family: Algerian;
+	   color:  red;
+	   text-decoration: none;
+   }
+img {
+	 position: center;
+}
+
+h1{
+	font-family: Algerian;
+	color: white;
+}
+h2{
+	font-family: Algerian;
+	color:   white;
+}
+
+li {
+	font-family: Algerian;
+	color: cream white;
+	}
+p {
+	font-family: Algerian;
+	color: white;
+}
+ .navbar ul{
+	         list-style-type: none;
+			 background-color: yellow;
+			 padding:  0px; 
+			 margin: 0px;
+			 overflow: hidden;
+  }
+  
+  .navbar a:hover{
+	         background-color: red;
+	         
+            }
+	.navbar a{
+		      color: orange;
+			  text-decoration: none;
+			  font-family: Algerian;
+			  padding: 16px;
+			  display: block;
+			  
+	}
+	.navbar li{
+		      float: left;
+	      }

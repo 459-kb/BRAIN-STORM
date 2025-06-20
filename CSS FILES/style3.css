@@ -1,0 +1,99 @@
+body{ background-image: url("Images1/Background1.jpg");
+      background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center;
+	  height: auto;
+	  background-attachment: scroll;
+	  
+     }
+
+.img-container2 img{
+	            position: top left;
+                width: 150px;
+                height: 150px;
+}
+h1 {       text-align: center;
+	      font-family: Algerian;
+		  color: Gold;
+}
+ 
+.main {
+        position: relative;
+        background-image: url('your-background-image');
+        background-size: cover;
+        filter: blur(5px);
+		}
+ .Loginform{ 
+             color: #FF2400;
+            text-align: center;
+	         border:  6px solid red;
+			 border-radius: 25px;
+			 box-shadow: 0 0 50px black;
+			 height: auto;
+			 width: 610px;
+			 padding-left: 10px;
+			 padding-bottom: 15px;
+			 margin: 0 auto;
+			 font-family: Algerian;
+			 
+			 
+ }
+ 
+.Loginform input{
+	          font-family: Georgian;     
+              border: 8px solid gold;
+	          border-radius: 18px;
+			  width: 200px;
+			  height: 35px;
+			  text-align: center;
+  }
+ 
+    /*Navigation Bar*/
+  .navbar ul{
+	         list-style-type: none;
+			 background-color: yellow;
+			 padding:  0px; 
+			 margin: 0px;
+			 overflow: hidden;
+  }
+ .navbar a:hover{
+	         background-color: red;
+	         
+            }
+.navbar a{
+		      color: orange;
+			  text-decoration: none;
+			  font-family: Algerian;
+			  padding: 16px;
+			  display: block;			  
+	}
+.navbar li{
+		      float: left;
+	      }
+		  
+input[type="submit"]:hover{
+	       background-color: red;
+} 
+
+input[type="checkbox"]{
+	     height: 20px;
+}
+
+button {
+	     border: 8px solid gold;
+	     border-radius: 18px;
+	     width: 150px;
+	     height: 35px;
+	    text-align: center;
+}
+
+button:hover{
+	         background-color: red;
+}
+         
+footer {
+      background-color: #ffcb05;
+      text-align: center;
+      padding: 15px;
+    }
+

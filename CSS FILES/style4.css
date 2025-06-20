@@ -1,0 +1,45 @@
+body{
+    bbackground-image: url("Images2/Background1.jpg");
+      background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center;
+	  height: auto;
+	  background-attachment: scroll;
+}
+
+.container {
+margin: 100px 0 0 300px;
+width: 50%;
+height: 100px;
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.container img {
+    border: 5px black solid;
+padding: 65px 65px 65px 65px;
+    width: 150px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 10px solid black(255,255,255,0.684);
+    transition: all ease-in-out;
+}
+
+.container img:hover {
+width: 50%;
+}
+
+.pinky {
+margin-top: 10px;
+font-size: 18px;
+font-weight: bold;
+color: #ff6600; /*Adjust color*/
+}
+
+footer {
+      background-color: #ffcb05;
+      text-align: center;
+      padding: 15px;
+    }
